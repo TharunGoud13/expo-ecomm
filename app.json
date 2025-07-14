@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "Evira",
+    "slug": "Evira",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "evira",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#101010"
+    },
+    "android": {
+      "package": "com.bhanu311r.evira",  
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#101010"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/ornament.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#101010"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "4bee471d-03a3-4227-a82e-41c8d9be6e36"
+      }
+    },
+    "owner": "bhanu311r"
+  }
+}
