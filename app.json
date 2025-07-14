@@ -17,7 +17,7 @@
       "backgroundColor": "#101010"
     },
     "android": {
-      "package": "com.bhanu311r.evira",  
+      "package": "com.bhanu311r.evira",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#101010"
@@ -47,9 +47,9 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "4bee471d-03a3-4227-a82e-41c8d9be6e36"
+        "projectId": "36a2107f-f153-49e9-af30-5b51d69d2749"
       }
     },
-    "owner": "bhanu311r"
+    "owner": "tharungoud"
   }
 }
